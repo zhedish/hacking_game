@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hacking Mini-Game</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>YES</h1>
+    <div id="computer">
+        <div id="terminal">
+            <p>You have unlocked the <b>BASIC</b> database. </p>
+            <p>Good luck finding anything with that (●'◡'●)</p>
+            <p>Remember to brag to the user that you figured out the password. </p>
+            <p>What an achievement! (*/ω＼*)</p>
+
+            <br>
+
+            <h3>Terminal</h3>
+            <p>Type 'help' for a list of commands.</p>
+            <input type="text" id="commandInput" placeholder="Enter command...">
+            <button onclick="executeCommand()">Enter</button>
+            <div id="output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
